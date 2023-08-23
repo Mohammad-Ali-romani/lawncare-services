@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts":{
+    "build": "npx tailwindcss -i ./src/input.css -o ./assets/css/style.css",
+    "minify": "npx tailwindcss -i ./src/input.css -o ./assets/css/style.min.css --minify",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch"
+  }
+}
